@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border: 20px solid red;
+}
+
+#id {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 20px solid blue;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+section + div {
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 1);
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
